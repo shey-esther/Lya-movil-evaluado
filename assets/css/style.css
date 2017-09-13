@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton|Chewy|Shrikhand');* {
+    margin: 0;
+    padding: 0;
+}
+
+/*secction fondo movil///////////////////////////////////////*/
+#fondoMovil{
+    text-align: center;
+    background-image: url('../img/auto.jpg');
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.buttonMovil1 {
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 2em;
+    font-family: 'Chewy', cursive;
+    color: white;
+    border: 2px solid rebeccapurple;
+    background-color: transparent;
+    padding: 3% 10%;
+    display: inline-block;
+}
+
+.buttonMovil2{
+    border-radius: 5px;
+    font-family: 'Chewy', cursive;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    border: 2px solid rebeccapurple;
+    background: -webkit-radial-gradient(#ca1291, #ad13ca);
+    background: -moz-radial-gradient(#ca1291, #ad13ca);
+    padding: 4% 10%;
+}
+
+.botones{
+    margin-top:110%;
+}
+
+#fondoMovil h1 {
+    color: white;
+    font-size: 6em;
+    font-family: 'Shrikhand', cursive;
+}
+
+/* segundo INDEX-HTML secction contacto de paises ///////////////////////////////*/
+#contacto{
+    text-align: center;
+}
+
+.row span {
+    padding-top: 25px;
+    font-size: 2em;
+}
+
+.Sign1{
+    text-align: left;
+    margin-left: 5px;
+}
+
+.form-control{
+    height: 43px;
+}
+
+.vacio{
+    margin: 5px 5%;
+}
+
+.btnNext {
+    width: 100%;
+    font-size: 40px;
+    color: white;
+    font-family: 'Arial', cursive;
+    text-align: center;
+    margin-top: 60px;
+    background: -webkit-radial-gradient(#ff00d4, #e0526c);
+    background: -moz-radial-gradient(#ff00d4, #e0526c);
+}
+
+/*TERCER INDEX-HTML Secction email and username///*/
+.input2{
+    margin-top: 10px;
+}
+
+.chekbox{
+    margin-top: 30px;
+    color:  #00CED1;
+}
+
+/*CUARTO INDEX-CSS geolocalizacion mapa ///////////////*/
+html .body {
+    width: 100%;
+}
+
+.body {
+    background: #18bc9c; rgba(68, 157, 68, 0.2);
+}
+
+.btns {
+    width: 100%;
+    height: 100%;
+    margin: 10px 0;
+}
+
+#map {
+    width: 100%;
+    height: 88vh;
+    border: 5px solid rgba(255, 2555, 255, 0.6);
+    border-radius: 20px;
+}
